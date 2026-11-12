@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, "Segoe UI", Roboto, system-ui, sans-serif;
+  color: #17233c;
+  background: #f3f6fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 12% 0%, rgb(222 231 255 / 62%), transparent 42%),
+    #f3f6fb;
+}
+
+#root {
+  min-height: 100vh;
+}
